@@ -19,6 +19,18 @@ $ go build fizzbuzz.go
 $ ./fizzbuzz
 ```
 
+As with other C-like programming languages, Go uses "/*...*/" for multi-line comments and "//" for single line comments:
+
+```Go
+/*
+   This is
+   a multi-line
+   comment.
+*/
+
+// This is a single-line comment.
+```
+
 Go programs are made of packages. They begin running in the "main" package:
 
 ```Go
