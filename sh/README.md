@@ -91,7 +91,7 @@ At this point it is probably worth noting that the POSIX shell uses "echo" for p
 The POSIX shell uses keywords to denote the beginning and end of blocks of text, rather than the curly braces used in the C family of languages. In some cases the keyword used to denote the end of a block is simply the keyword used to denote the beginning of the block, typed backwards:
 
 ```Shell
-if [ *condition* ]
+if [ ... ]
 then
   ...
 fi
