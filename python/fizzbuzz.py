@@ -16,16 +16,19 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 """
 
+mod3 = "fizz"
+mod5 = "buzz"
+
 for num in range(1,101):
-	text = ""
+    text = ""
 
-	if num % 3 == 0:
-		text += "fizz"
-	if num % 5 == 0:
-		text += "buzz"
+    if num % 3 == 0:
+        text += mod3 
+    if num % 5 == 0:
+        text += mod5 
 
-	if text:
-		print(text)
-	else:
-		print(num)
+    if text:
+        print(text)
+    else:
+        print(num)
 
