@@ -1,3 +1,5 @@
+#!/usr/bin/env js
+
 /* Copyright (c) 2016, Matthew Morris
  *
  * Permission to use, copy, modify, and/or distribute this software for any
@@ -28,8 +30,8 @@ for (num = 1; num <= 100; num++) {
    }
 
    if (text) {
-      document.write(text + "<br>");
+      console.log(text);
    } else {
-      document.write(num + "<br>");
+      console.log(num);
    }
 }
