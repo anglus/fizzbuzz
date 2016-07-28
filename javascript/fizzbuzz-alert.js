@@ -16,17 +16,17 @@
 // This is not an example of a good JavaScript program.
 // Use alerts sparingly, and only when necessary. 
 
-var mod3 = 'fizz';
-var mod5 = 'buzz';
+var mod3 = "fizz";
+var mod5 = "buzz";
 
 for (num = 1; num <= 100; num++) {
-   var text = '';
+   var text = "";
 
-   if (num % 3 == 0) {
+   if (num % 3 === 0) {
       text += mod3;
    }
 
-   if (num % 5 == 0) {
+   if (num % 5 === 0) {
       text += mod5;
    }
 

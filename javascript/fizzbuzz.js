@@ -13,17 +13,17 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-var mod3 = 'fizz';
-var mod5 = 'buzz';
+var mod3 = "fizz";
+var mod5 = "buzz";
 
 for (num = 1; num <= 100; num++) {
-   var text = '';
+   var text = "";
 
-   if (num % 3 == 0) {
+   if (num % 3 === 0) {
       text += mod3;
    }
 
-   if (num % 5 == 0) {
+   if (num % 5 === 0) {
       text += mod5;
    }
 
