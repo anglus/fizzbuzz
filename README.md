@@ -19,6 +19,7 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - Go (added July 19, 2016)
 - Java (added August 25, 2016)
 - JavaScript (added July 21, 2016)
+- Julia (added August 25, 2016)
 - Lua (added July 28, 2016)
 - PHP (added August 25, 2016)
 - POSIX shell (added July 18, 2016)
