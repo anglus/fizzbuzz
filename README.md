@@ -15,6 +15,7 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 
 - C (added August 25, 2016)
 - C++ (added August 25, 2016)
+- Crystal (added August 25, 2016)
 - Go (added July 19, 2016)
 - Java (added August 25, 2016)
 - JavaScript (added July 21, 2016)
