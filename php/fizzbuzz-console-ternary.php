@@ -26,6 +26,6 @@ for ($num = 1; $num <= 100; $num++) {
         $text = $text . "buzz";
     }
 
-	echo ($text ? $text : $num) . "\n";
+    echo ($text ? $text : $num) . "\n";
 }
 ?>

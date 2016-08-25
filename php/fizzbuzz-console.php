@@ -26,7 +26,7 @@ for ($num = 1; $num <= 100; $num++) {
         $text = $text . "buzz";
     }
 
-	if ($text) {
+    if ($text) {
         echo $text . "\n";
     } else { 
         echo $num . "\n";
