@@ -27,5 +27,6 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - Python (added July 19, 2016)
 - Ruby (added July 21, 2016)
 - Rust (added August 25, 2016)
+- Scala (added August 25, 2016)
 - Scratch (added July 25, 2016)
 
