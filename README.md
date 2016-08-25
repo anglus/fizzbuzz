@@ -13,6 +13,7 @@ I welcome improvements to any of the programs, especially those that help me ach
 
 Below is a list of languages for which a fizzbuzz program exists in this collection:
 
+- C (added August 25, 2016)
 - C++ (added August 25, 2016)
 - Go (added July 19, 2016)
 - JavaScript (added July 21, 2016)
