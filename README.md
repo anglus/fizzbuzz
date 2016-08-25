@@ -23,4 +23,5 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - POSIX shell (added July 18, 2016)
 - Python (added July 19, 2016)
 - Ruby (added July 21, 2016)
+- Scratch (added July 25, 2016)
 
