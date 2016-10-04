@@ -16,8 +16,10 @@
 
 (defun fizz-buzz (num)
   (if (<= num 100)
-      (progn (when (= (mod num 3) 0) (format t "fizz"))
-             (when (= (mod num 5) 0) (format t "buzz"))
+      (progn (when (= (mod num 3) 0)
+                   (format t "fizz"))
+             (when (= (mod num 5) 0)
+                   (format t "buzz"))
              (unless
                (or (= (mod num 3) 0)
                    (= (mod num 5) 0))

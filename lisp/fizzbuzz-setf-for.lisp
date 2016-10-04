@@ -16,10 +16,13 @@
 
 (defun fizz-buzz (num)
   (setf text "")
-  (when (= (mod num 3) 0) (setf text (concatenate 'string text "fizz")))
-  (when (= (mod num 5) 0) (setf text (concatenate 'string text "buzz")))
+  (when (= (mod num 3) 0)
+        (setf text (concatenate 'string text "fizz")))
+  (when (= (mod num 5) 0)
+        (setf text (concatenate 'string text "buzz")))
   (cond 
-    ((equal "" text) (format t "~a~%" num))
+    ((equal "" text) 
+     (format t "~a~%" num))
     (t (format t "~a~%" text))))
      
 (loop

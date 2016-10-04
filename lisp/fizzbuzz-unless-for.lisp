@@ -15,8 +15,10 @@
 ;;; OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 (defun fizz-buzz (num)
-  (when (= (mod num 3) 0) (format t "fizz"))
-  (when (= (mod num 5) 0) (format t "buzz"))
+  (when (= (mod num 3) 0)
+        (format t "fizz"))
+  (when (= (mod num 5) 0)
+        (format t "buzz"))
   (unless
     (or (= (mod num 3) 0)
         (= (mod num 5) 0))
