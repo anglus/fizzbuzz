@@ -13,6 +13,7 @@ I welcome improvements to any of the programs, especially those that help me ach
 
 Below is a list of languages for which a fizzbuzz program exists in this collection:
 
+- Ada (added October 10, 2016)
 - C (added August 25, 2016)
 - C++ (added August 25, 2016)
 - Chapel (added August 25, 2016)
