@@ -14,10 +14,10 @@
 # ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-multi sub fizzbuzz($num where $num % 3 == 0 && $num % 5 == 0) { say "fizzbuzz"; }
-multi sub fizzbuzz($num where $num % 3 == 0) { say "fizz"; }
-multi sub fizzbuzz($num where $num % 5 == 0) { say "buzz"; }
-multi sub fizzbuzz($num) { say $num; }
+multi sub fizzbuzz(Int $num where $num % 3 == 0 && $num % 5 == 0) { say "fizzbuzz"; }
+multi sub fizzbuzz(Int $num where $num % 3 == 0) { say "fizz"; }
+multi sub fizzbuzz(Int $num where $num % 5 == 0) { say "buzz"; }
+multi sub fizzbuzz(Int $num) { say $num; }
 
 for 1..100 -> $n {
     fizzbuzz($n);
