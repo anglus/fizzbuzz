@@ -16,10 +16,10 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 =#
 
-function fizzbuzz(num::Int, mod3::Bool, mod5::Bool) return num end
-function fizzbuzz(num::Int, mod3::Int, mod5::Bool) return "fizz" end
-function fizzbuzz(num::Int, mod3::Bool, mod5::Int) return "buzz" end
-function fizzbuzz(num::Int, mod3::Int, mod5::Int) return "fizzbuzz" end
+fizzbuzz(num::Int, mod3::Bool, mod5::Bool) = num
+fizzbuzz(num::Int, mod3::Int, mod5::Bool) = "fizz"
+fizzbuzz(num::Int, mod3::Bool, mod5::Int) = "buzz"
+fizzbuzz(num::Int, mod3::Int, mod5::Int) = "fizzbuzz"
 
 for n = 1:100
     println(fizzbuzz(n, n % 3 == 0 ? 1 : false, n % 5 == 0 ? 1 : false))

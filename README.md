@@ -26,6 +26,7 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - Julia (added August 25, 2016)
 - Lua (added July 28, 2016)
 - Nim (added September 22, 2016)
+- Octave (added November 22, 2016)
 - Perl 6 (added November 9, 2016)
 - PHP (added August 25, 2016)
 - POSIX shell (added July 18, 2016)
