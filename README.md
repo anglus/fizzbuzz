@@ -30,6 +30,7 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - Perl 6 (added November 9, 2016)
 - PHP (added August 25, 2016)
 - POSIX shell (added July 18, 2016)
+- Prolog (added December 19, 2016)
 - Python (added July 19, 2016)
 - Racket (added November 12, 2016)
 - Ruby (added July 21, 2016)
