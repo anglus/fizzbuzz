@@ -37,4 +37,5 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - Rust (added August 25, 2016)
 - Scala (added August 25, 2016)
 - Scratch (added July 25, 2016)
+- Standard ML (added December 27, 2016)
 
