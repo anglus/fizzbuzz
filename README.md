@@ -26,6 +26,7 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - Julia (added August 25, 2016)
 - Lua (added July 28, 2016)
 - Nim (added September 22, 2016)
+- OCaml (added January 12, 2017)
 - Octave (added November 22, 2016)
 - Perl 6 (added November 9, 2016)
 - PHP (added August 25, 2016)
@@ -37,5 +38,6 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - Rust (added August 25, 2016)
 - Scala (added August 25, 2016)
 - Scratch (added July 25, 2016)
+- Smalltalk (added January 12, 2017)
 - Standard ML (added December 27, 2016)
 
