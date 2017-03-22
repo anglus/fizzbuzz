@@ -1,0 +1,27 @@
+#!/usr/bin/env escript
+
+%% Copyright (c) 2016, Matthew Morris
+%%
+%% Permission to use, copy, modify, and/or distribute this software for any
+%% purpose with or without fee is hereby granted, provided that the above
+%% copyright notice and this permission notice appear in all copies.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+%% WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+%% MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+%% ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+%% WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+%% ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+%% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+fizzbuzz(N) ->
+    case {N rem 3 == 0, N rem 5 == 0} of
+        {true, true} -> fizzbuzz;
+        {true, false} -> fizz;
+        {false, true} -> buzz;
+        _ -> N
+    end.
+
+main([]) ->
+    List = [fizzbuzz(Num) || Num <- lists:seq(1,100)],
+    [io:format("~w~n", [E]) || E <- List].
