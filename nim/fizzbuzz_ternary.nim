@@ -1,5 +1,3 @@
-import strutils
-
 discard """
 Copyright (c) 2016, 2017 Matthew Morris <user="anglus"; domain="gmail.com">
 
