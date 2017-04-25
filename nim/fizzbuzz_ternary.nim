@@ -1,7 +1,7 @@
 import strutils
 
 discard """
-Copyright (c) 2016, Matthew Morris <user="anglus"; domain="gmail.com">
+Copyright (c) 2016, 2017 Matthew Morris <user="anglus"; domain="gmail.com">
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -24,4 +24,4 @@ for num in 1..100:
     if num mod 5 == 0:
         text &= "buzz" 
 
-    echo if text != "": text else: intToStr(num)
+    echo if text != "": text else: $num
