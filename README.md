@@ -19,6 +19,7 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - Chapel (added August 25, 2016)
 - Common Lisp (added October 4, 2016)
 - Crystal (added August 25, 2016)
+- Elixir (added April 24, 2017)
 - Erlang (added December 2, 2016)
 - Go (added July 19, 2016)
 - Java (added August 25, 2016)
