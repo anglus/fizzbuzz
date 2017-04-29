@@ -22,7 +22,6 @@ fizzbuzz(N,buzz)     :- N mod 3 =\= 0, N mod 5 =:= 0.
 fizzbuzz(N,N)        :- N mod 3 =\= 0, N mod 5 =\= 0.
 
 apply(F,[],[]).
-apply(F,[X|[]],[Y])   :- call(F,X,Y).
 apply(F,[X|Xs],[Y|Ys]) :- call(F,X,Y), apply(F,Xs,Ys).
 
 printlist([]).
