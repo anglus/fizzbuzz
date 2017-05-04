@@ -12,13 +12,14 @@
 -- ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 -- OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-fizzbuzz :: (Int) => String
+fizzbuzz :: Int -> String
 fizzbuzz n =
-    case (rem n 3, rem n 5) of
+    case (mod n 3, mod n 5) of
          (0, 0) -> "fizzbuzz"
          (0, _) -> "fizz"
          (_, 0) -> "buzz"
          _      -> show n
 
+main :: IO [()]
 main = do
     mapM putStrLn $ map fizzbuzz [1..100]
