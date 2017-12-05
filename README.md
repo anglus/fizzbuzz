@@ -26,6 +26,7 @@ Below is a list of languages for which a fizzbuzz program exists in this collect
 - Java (added August 25, 2016)
 - JavaScript (added July 21, 2016)
 - Julia (added August 25, 2016)
+- Kotlin (added December 4, 2017)
 - Lua (added July 28, 2016)
 - Nim (added September 22, 2016)
 - OCaml (added January 12, 2017)
